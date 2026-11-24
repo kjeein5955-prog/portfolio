@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeein Kim — Video Editor</title>
+  <meta name="description" content="김지인, 영상 편집자 포트폴리오. 인터뷰 다큐멘터리, 브랜드 필름, 광고 영상을 만듭니다.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ 상단 내비게이션 ============ -->
+  <header class="nav">
+    <a class="nav-logo" href="#top">JEEIN KIM</a>
+    <nav class="nav-links">
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ 히어로 ============ -->
+    <section class="hero">
+      <p class="hero-kicker">VIDEO EDITOR · SEOUL</p>
+      <h1 class="hero-title">
+        이야기가 살아나는<br>
+        편집을 만듭니다.
+      </h1>
+      <p class="hero-sub">
+        인터뷰 다큐멘터리부터 브랜드 필름까지,<br class="br-mobile">
+        사람과 이야기에 집중하는 영상을 편집합니다.
+      </p>
+      <a class="hero-cta" href="#works">작업 보기 ↓</a>
+    </section>
+
+    <!-- ============ 작업 목록 ============ -->
+    <section id="works" class="works">
+      <h2 class="section-title">Works</h2>
+
+      <div class="works-grid">
+
+        <!-- 작업 카드 1: 엑스로드 EP.1
+             ※ 영상 링크가 생기면 아래 thumb 안의 iframe 주석을 풀고 src를 바꾸면 됩니다. -->
+        <article class="work-card">
+          <a class="work-thumb thumb-dark" href="#" aria-label="XROAD EP.1 GAME CHANGE">
+            <!-- ▼ YouTube 임베드 예시 (링크 확정 후 교체)
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="XROAD EP.1" frameborder="0" allowfullscreen></iframe>
+            -->
+            <span class="thumb-ep">EP.1</span>
+            <span class="thumb-name">GAME CHANGE</span>
+            <span class="thumb-play">▶</span>
+          </a>
+          <div class="work-meta">
+            <h3>XROAD EP.1 「GAME CHANGE」</h3>
+            <p>두 게임 회사 대표의 인터뷰 다큐멘터리 · 2026</p>
+          </div>
+        </article>
+
+        <!-- 작업 카드 2: 엑스로드 EP.2 -->
+        <article class="work-card">
+          <a class="work-thumb thumb-warm" href="#" aria-label="XROAD EP.2 BY YOUR SIDE">
+            <!-- ▼ YouTube 임베드 예시 (링크 확정 후 교체)
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="XROAD EP.2" frameborder="0" allowfullscreen></iframe>
+            -->
+            <span class="thumb-ep">EP.2</span>
+            <span class="thumb-name">BY YOUR SIDE</span>
+            <span class="thumb-play">▶</span>
+          </a>
+          <div class="work-meta">
+            <h3>XROAD EP.2 「BY YOUR SIDE」</h3>
+            <p>환자 곁에 선 두 창업자의 병원 다큐멘터리 · 2026</p>
+          </div>
+        </article>
+
+        <!-- 작업 카드 3: 추가 예정 슬롯
+             ※ 새 작업을 추가할 때는 이 블록 전체를 복사해서 쓰면 됩니다. -->
+        <article class="work-card">
+          <a class="work-thumb thumb-soon" href="#" aria-label="작업 추가 예정">
+            <span class="thumb-ep">NEXT</span>
+            <span class="thumb-name">새 작업 준비 중</span>
+          </a>
+          <div class="work-meta">
+            <h3>Brand Film</h3>
+            <p>곧 공개됩니다</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ 소개 ============ -->
+    <section id="about" class="about">
+      <h2 class="section-title">About</h2>
+      <p class="about-text">
+        프리랜스 영상 편집자 김지인입니다.<br>
+        인터뷰 시리즈 「XROAD」의 오프닝·브릿지·타이틀을 포함한 편집을 맡고 있고,<br>
+        광고 영상과 브랜드 콘텐츠를 기획부터 편집까지 함께합니다.<br>
+        좋은 편집은 보이지 않는 곳에서 이야기를 움직인다고 믿습니다.
+      </p>
+      <ul class="about-list">
+        <li>다큐멘터리 · 인터뷰 편집</li>
+        <li>광고 · 브랜드 필름</li>
+        <li>모션 그래픽 타이틀</li>
+      </ul>
+    </section>
+
+    <!-- ============ 연락처 ============ -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-lead">함께 만들 영상이 있다면 편하게 연락 주세요.</p>
+      <a class="contact-mail" href="mailto:jeeinkim3@gmail.com">jeeinkim3@gmail.com</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Jeein Kim. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
